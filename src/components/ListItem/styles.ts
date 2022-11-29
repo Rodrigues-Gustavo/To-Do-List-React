@@ -23,5 +23,5 @@ export const Container = styled.div(({ done }: ContainerProps) => (
         color: #ccc;
         text-decoration: ${done ? 'line-through' : 'initial'};
     }
-`
+    `
 ));
